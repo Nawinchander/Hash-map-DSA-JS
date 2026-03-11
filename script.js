@@ -28,3 +28,36 @@ console.log(hashMap.size); // 2
 // 2
 
 
+//// using object
+
+// Creating a Hash Map
+let hashMap = {};
+
+// Insert values
+hashMap["name"] = "Nawin";
+hashMap["age"] = 25;
+hashMap["city"] = "Chennai";
+
+// Access values
+console.log(hashMap["name"]);  // Nawin
+console.log(hashMap["city"]);  // Chennai
+
+// Check key existence
+console.log("age" in hashMap); // true
+
+// Delete key
+delete hashMap["age"];
+
+console.log(hashMap);
+
+
+/// output
+
+// Nawin
+// Chennai
+// true
+// { name: 'Nawin', city: 'Chennai' }
+
+
+
+
