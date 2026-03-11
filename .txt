@@ -1,0 +1,3 @@
+A Hash Map (or Hash Table) stores data as key → value pairs and allows very fast lookup, insertion, and deletion — usually O(1) time complexity.
+
+In JavaScript, the built-in structure for this is Map or using an Object {}.
