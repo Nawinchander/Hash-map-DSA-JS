@@ -58,6 +58,35 @@ console.log(hashMap);
 // true
 // { name: 'Nawin', city: 'Chennai' }
 
+//// Frequency Counter using Hash Map
+
+function frequencyCounter(arr) {
+
+    let map = {};
+
+    for (let num of arr) {
+        if (map[num]) {
+            map[num]++;
+        } else {
+            map[num] = 1;
+        }
+    }
+
+    return map;
+}
+
+let arr = [1,2,2,3,3,3,4];
+
+console.log(frequencyCounter(arr));
+
+//// output
+
+// {
+//  1:1,
+//  2:2,
+//  3:3,
+//  4:1
+// }
 
 
 
