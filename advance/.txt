@@ -6,3 +6,20 @@
 | Subarray Sum = K  | Prefix Sum + HashMap     |
 
 
+LRU Cache (HashMap + Doubly Linked List)
+Idea
+
+LRU = Least Recently Used
+
+When cache is full:
+
+Remove the least recently used item
+
+To make operations O(1):
+
+HashMap → fast lookup
+
+Doubly Linked List → track usage order
+
+Most recent → Head
+Least recent → Tail
