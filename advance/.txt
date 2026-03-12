@@ -1,0 +1,8 @@
+| Problem           | Concept Used             |
+| ----------------- | ------------------------ |
+| Two Sum           | Complement lookup        |
+| Longest Substring | Sliding Window + HashMap |
+| Group Anagrams    | Hashing sorted strings   |
+| Subarray Sum = K  | Prefix Sum + HashMap     |
+
+
