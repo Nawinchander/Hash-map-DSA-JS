@@ -31,7 +31,7 @@ console.log(hashMap.size); // 2
 //// using object
 
 // Creating a Hash Map
-let hashMap = {};
+let hashMap1 = {};
 
 // Insert values
 hashMap["name"] = "Nawin";
@@ -39,14 +39,14 @@ hashMap["age"] = 25;
 hashMap["city"] = "Chennai";
 
 // Access values
-console.log(hashMap["name"]);  // Nawin
-console.log(hashMap["city"]);  // Chennai
+console.log(hashMap1["name"]);  // Nawin
+console.log(hashMap1["city"]);  // Chennai
 
 // Check key existence
-console.log("age" in hashMap); // true
+console.log("age" in hashMap1); // true
 
 // Delete key
-delete hashMap["age"];
+delete hashMap1["age"];
 
 console.log(hashMap);
 
